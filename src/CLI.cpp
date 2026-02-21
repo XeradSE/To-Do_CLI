@@ -50,7 +50,6 @@ void CLI::promptModifyTask(int id) {
     }
     std::cout << "Quel description voulez-vous donner à votre tâche (l'ancienne description est gardé si le champ est laissé vide)" << std::endl;
     std::string desc;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::getline(std::cin, desc);
     if (!desc.empty()) {
         TM.getTask(id).setDesc(desc);
