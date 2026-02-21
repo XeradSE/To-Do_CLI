@@ -4,7 +4,11 @@ A command-line task manager written in C++, with persistent JSON storage.
 
 ## Demo
 
-*Coming soon*
+
+
+https://github.com/user-attachments/assets/881a3893-9c89-49e5-9810-12fd00bfe5b5
+
+
 
 ## Features
 
