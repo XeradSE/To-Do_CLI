@@ -6,6 +6,7 @@
 void TaskManager::addTask(const std::string& title) {
     Task new_task(title, ind);
     liste.insert({ind, new_task});
+    std::cout << "L'id de votre nouvelle tâche est : " << ind << std::endl; 
     ind++;
 }
 
@@ -18,7 +19,7 @@ void TaskManager::removeTask(int id) {
     liste.erase(id);
 }
 
-Task TaskManager::getTask(int id) {
+Task& TaskManager::getTask(int id) {
     if (liste.count(id) == 0) throw std::runtime_error("Cet id n'appartient à aucune tâche.");
     return liste.at(id);
 }

@@ -18,7 +18,7 @@ public:
 
     void removeTask(int id);
 
-    Task getTask(int id);
+    Task& getTask(int id);
 
     std::vector<Task> getAllTasks() const;
 

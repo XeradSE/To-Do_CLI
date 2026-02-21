@@ -13,6 +13,7 @@ void Task::display(){
     std::cout << "Task priority: " << priority << std::endl;
     std::cout << "Task status: " << status << std::endl;
     std::cout << "Task due on " << due_date << std::endl;
+    std::cout << std::endl;
 }
 
 std::ostream& operator<<(std::ostream& o, const Priority& p){

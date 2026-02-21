@@ -987,6 +987,7 @@ CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o
 CMakeFiles/To-Do_CLI.dir/src/main.cpp.o
  /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp
  /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/include/CLI.hpp
+ /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/include/Storage.hpp
  /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/include/Task.hpp
  /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/include/TaskManager.hpp
  /usr/include/alloca.h
