@@ -34,6 +34,7 @@ void CLI::displayByStatus() {
 }
 
 void CLI::promptLoadSave(const std::string& path) {
+    Storage ST;
     std::vector<Task> new_tasks = ST.load(path);
     for (const Task& i : new_tasks) {
         TM.addTask(i);
@@ -136,9 +137,11 @@ void CLI::run(){
                     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                     std::getline(std::cin, path);
                     promptLoadSave(path);
+                    break;
                 }
                 default: std::cout << "Entrée invalide." << std::endl; break;
             }
+            Storage ST;
             ST.save(TM.getAllTasks(), "../data/data.json");
         }
     }catch(const std::exception& e) {

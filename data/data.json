@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "desc": "C'est une tâche créée dans le but de montrer le chargement de fichier JSON (et créée avec l'application)",
+        "due_date": "2026-02-21",
+        "id": 1,
+        "priority": 2,
+        "status": 0,
+        "title": "Démo Chargement"
+    }
+]
