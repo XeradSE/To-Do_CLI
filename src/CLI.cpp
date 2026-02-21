@@ -4,6 +4,7 @@
 #include <vector>
 #include "../include/Storage.hpp"
 #include <cctype>
+#include <limits>
 
 CLI::CLI(const TaskManager& TM) {
     this->TM = TM;
@@ -42,14 +43,14 @@ void CLI::promptLoadSave(const std::string& path) {
 void CLI::promptModifyTask(int id) {
     std::cout << "Quel titre voulez-vous donner à votre tâche (l'ancien nom est gardé si le champ est laissé vide)" << std::endl;
     std::string title;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::getline(std::cin, title);
     if (!title.empty()) {
         TM.getTask(id).setTitle(title);
     }
     std::cout << "Quel description voulez-vous donner à votre tâche (l'ancienne description est gardé si le champ est laissé vide)" << std::endl;
     std::string desc;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::getline(std::cin, desc);
     if (!desc.empty()) {
         TM.getTask(id).setDesc(desc);
@@ -68,7 +69,7 @@ void CLI::promptModifyTask(int id) {
     }
     std::cout << "Quel status (To-Do - In Progress - Done) voulez-vous donner à votre tâche (l'ancien status est gardé si le champ est laissé vide)" << std::endl;
     std::string status;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::getline(std::cin, status);
     if (!status.empty()) {
         for (char& c: status) {c = std::toupper(c);}
@@ -99,7 +100,7 @@ void CLI::run(){
                 case 'a': {
                     std::cout << "Quel titre voulez-vous donner à votre tâche ?" << std::endl;
                     std::string titre;
-                    std::cin.ignore();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                     std::getline(std::cin, titre);
                     promptAddTask(titre);
                     break;
@@ -133,7 +134,7 @@ void CLI::run(){
                 case 'c': {
                     std::cout << "Veuillez préciser le chemain vers le fichier (relatif au dossier src ou le chemin complet)" << std::endl;
                     std::string path;
-                    std::cin.ignore();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                     std::getline(std::cin, path);
                     promptLoadSave(path);
                 }
