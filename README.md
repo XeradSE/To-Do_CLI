@@ -42,8 +42,10 @@ make
 
 ```
 To-Do_CLI/
-├── Makefile
+├── build/
+│   ├── Makefile
 ├── README.md
+├── CMakeLists.md
 ├── include/
 │   ├── Task.hpp
 │   ├── TaskManager.hpp
