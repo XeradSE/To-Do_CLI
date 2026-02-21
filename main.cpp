@@ -1,4 +1,5 @@
 #include "src/Task.cpp"
+#include "src/TaskManager.cpp"
 
 int main() {
 
@@ -7,6 +8,15 @@ int main() {
     test.setDueDate("2026-04-25");
     test.setPriority(Priority::LOW);
     test.setStatus(Status::IN_PROGRESS);
+
+    TaskManager TMTest;
+
+    TMTest.addTask("test");
+    TMTest.addTask("test2");
+    TMTest.addTask("test3");
+    TMTest.addTask("test4");
+
+    TMTest.sortByPriority();
 
     test.display();
 }

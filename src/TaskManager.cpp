@@ -1,4 +1,8 @@
 #include "../include/TaskManager.hpp"
+#include <stdexcept>
+#include <algorithm>
+#include <utility>
+#include <vector>
 
 void TaskManager::addTask(const std::string& title) {
     Task new_task(title, ind);
@@ -8,4 +12,71 @@ void TaskManager::addTask(const std::string& title) {
 
 void TaskManager::removeTask(int id) {
     liste.erase(id);
+}
+
+Task TaskManager::getTask(int id) {
+    if (liste.count(id) == 0) throw std::runtime_error("Cet id n'appartient à aucune tâche.");
+    return liste.at(id);
+}
+
+std::map<int, Task> TaskManager::filterByStatus(Status s) const {
+    std::map<int, Task> listeStatus;
+    for (auto const& [id, task] : liste) {
+        if (task.getStatus() == s) {
+            listeStatus.insert({id, task});
+        }
+    }
+    return listeStatus;
+}
+
+std::map<int, Task> TaskManager::filterByPriority(Priority p) const {
+    std::map<int, Task> listePriority;
+    for (auto const& [id, task] : liste) {
+        if (task.getPriority() == p) {
+            listePriority.insert({id, task});
+        }
+    }
+    return listePriority;
+}
+
+struct {
+    bool operator()(const Task& a, const Task& b) const {
+        return a.getPriority() > b.getPriority();
+    }
+}customPriority;
+
+void TaskManager::sortByPriority() {
+
+    std::vector<Task> temp;
+    
+    for (auto i : liste) {
+        temp.push_back(i.second);
+    }
+
+    std::sort(temp.begin(), temp.end(), customPriority);
+
+    for (auto i : temp) {
+        i.display();
+    }
+}
+
+struct {
+    bool operator()(const Task& a, const Task& b) const {
+        return a.getStatus() > b.getStatus();
+    }
+}customStatus;
+
+void TaskManager::sortByStatus() {
+
+    std::vector<Task> temp;
+    
+    for (auto i : liste) {
+        temp.push_back(i.second);
+    }
+
+    std::sort(temp.begin(), temp.end(), customStatus);
+
+    for (auto i : temp) {
+        i.display();
+    }
 }

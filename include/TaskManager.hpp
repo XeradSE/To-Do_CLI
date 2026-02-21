@@ -3,6 +3,7 @@
 
 #include "Task.hpp"
 #include <map>
+#include <vector>
 
 class TaskManager {
 
@@ -14,6 +15,18 @@ public:
     void addTask(const std::string& title);
 
     void removeTask(int id);
+
+    Task getTask(int id);
+
+    std::map<int, Task> getAllTasks() const {return liste;};
+
+    std::map<int, Task> filterByStatus(Status s) const;
+
+    std::map<int, Task> filterByPriority(Priority p) const;
+
+    void sortByPriority();
+
+    void sortByStatus();
 
 };
 

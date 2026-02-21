@@ -5,8 +5,8 @@
 #include <ostream>
 #include <string>
 
-enum class Priority { LOW, MEDIUM, HIGH };
-enum class Status { TODO, IN_PROGRESS, DONE };
+enum class Priority { LOW = 0, MEDIUM = 1, HIGH = 2 };
+enum class Status { TODO = 2, IN_PROGRESS = 1, DONE = 0 };
 
 class Task {
 
