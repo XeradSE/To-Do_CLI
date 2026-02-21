@@ -55,7 +55,7 @@ void TaskManager::sortByPriority() {
 
     std::sort(temp.begin(), temp.end(), customPriority);
 
-    for (auto i : temp) {
+    for (Task i : temp) {
         i.display();
     }
 }
@@ -76,7 +76,7 @@ void TaskManager::sortByStatus() {
 
     std::sort(temp.begin(), temp.end(), customStatus);
 
-    for (auto i : temp) {
+    for (Task i : temp) {
         i.display();
     }
 }
