@@ -13,7 +13,7 @@ A command-line task manager written in C++, with persistent JSON storage.
 - Set a due date for each task
 - Filter tasks by priority or status
 - Sort tasks by priority or due date
-- Persistent storage via a local JSON file
+- Persistent storage via a local JSON file (Warning! You must back-up the file once done before using the application again if you do not want your .json to be overwritten, or you can load it at the start.)
 
 ## Dependencies
 
