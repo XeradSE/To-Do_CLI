@@ -85,12 +85,12 @@ clean: CMakeFiles/To-Do_CLI.dir/clean
 CMakeFiles/To-Do_CLI.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=1,2 "Built target To-Do_CLI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target To-Do_CLI"
 .PHONY : CMakeFiles/To-Do_CLI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/To-Do_CLI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/To-Do_CLI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles 0
 .PHONY : CMakeFiles/To-Do_CLI.dir/rule
@@ -102,7 +102,7 @@ To-Do_CLI: CMakeFiles/To-Do_CLI.dir/rule
 # codegen rule for target.
 CMakeFiles/To-Do_CLI.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=1,2 "Finished codegen for target To-Do_CLI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target To-Do_CLI"
 .PHONY : CMakeFiles/To-Do_CLI.dir/codegen
 
 # clean rule for target.

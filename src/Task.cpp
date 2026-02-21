@@ -3,6 +3,8 @@
 Task::Task(std::string title, int id){
     this->title = title;
     this->id = id;
+    priority = Priority::LOW;
+    status = Status::TODO;
 }
 
 void Task::display(){

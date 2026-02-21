@@ -72,32 +72,96 @@ include CMakeFiles/To-Do_CLI.dir/flags.make
 CMakeFiles/To-Do_CLI.dir/codegen:
 .PHONY : CMakeFiles/To-Do_CLI.dir/codegen
 
-CMakeFiles/To-Do_CLI.dir/main.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
-CMakeFiles/To-Do_CLI.dir/main.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/main.cpp
-CMakeFiles/To-Do_CLI.dir/main.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/To-Do_CLI.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/main.cpp.o -MF CMakeFiles/To-Do_CLI.dir/main.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/main.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/main.cpp
+CMakeFiles/To-Do_CLI.dir/src/main.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
+CMakeFiles/To-Do_CLI.dir/src/main.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp
+CMakeFiles/To-Do_CLI.dir/src/main.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/To-Do_CLI.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/src/main.cpp.o -MF CMakeFiles/To-Do_CLI.dir/src/main.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/src/main.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp
 
-CMakeFiles/To-Do_CLI.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/main.cpp > CMakeFiles/To-Do_CLI.dir/main.cpp.i
+CMakeFiles/To-Do_CLI.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp > CMakeFiles/To-Do_CLI.dir/src/main.cpp.i
 
-CMakeFiles/To-Do_CLI.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/main.cpp -o CMakeFiles/To-Do_CLI.dir/main.cpp.s
+CMakeFiles/To-Do_CLI.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp -o CMakeFiles/To-Do_CLI.dir/src/main.cpp.s
+
+CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
+CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/CLI.cpp
+CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o -MF CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/CLI.cpp
+
+CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/CLI.cpp > CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.i
+
+CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/CLI.cpp -o CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.s
+
+CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
+CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Storage.cpp
+CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o -MF CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Storage.cpp
+
+CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Storage.cpp > CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.i
+
+CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Storage.cpp -o CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.s
+
+CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
+CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Task.cpp
+CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o -MF CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Task.cpp
+
+CMakeFiles/To-Do_CLI.dir/src/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/src/Task.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Task.cpp > CMakeFiles/To-Do_CLI.dir/src/Task.cpp.i
+
+CMakeFiles/To-Do_CLI.dir/src/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/src/Task.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Task.cpp -o CMakeFiles/To-Do_CLI.dir/src/Task.cpp.s
+
+CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o: CMakeFiles/To-Do_CLI.dir/flags.make
+CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o: /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/TaskManager.cpp
+CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o -MF CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o.d -o CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o -c /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/TaskManager.cpp
+
+CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/TaskManager.cpp > CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.i
+
+CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/TaskManager.cpp -o CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.s
 
 # Object files for target To-Do_CLI
 To__Do_CLI_OBJECTS = \
-"CMakeFiles/To-Do_CLI.dir/main.cpp.o"
+"CMakeFiles/To-Do_CLI.dir/src/main.cpp.o" \
+"CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o" \
+"CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o" \
+"CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o" \
+"CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o"
 
 # External object files for target To-Do_CLI
 To__Do_CLI_EXTERNAL_OBJECTS =
 
-To-Do_CLI: CMakeFiles/To-Do_CLI.dir/main.cpp.o
+To-Do_CLI: CMakeFiles/To-Do_CLI.dir/src/main.cpp.o
+To-Do_CLI: CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o
+To-Do_CLI: CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o
+To-Do_CLI: CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o
+To-Do_CLI: CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o
 To-Do_CLI: CMakeFiles/To-Do_CLI.dir/build.make
 To-Do_CLI: CMakeFiles/To-Do_CLI.dir/compiler_depend.ts
 To-Do_CLI: CMakeFiles/To-Do_CLI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable To-Do_CLI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable To-Do_CLI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/To-Do_CLI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

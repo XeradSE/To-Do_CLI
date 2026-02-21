@@ -7,4 +7,9 @@ project(To-Do_CLI)
 set(CMAKE_CXX_STANDARD 17)
 
 # Création de l'exécutable
-add_executable(To-Do_CLI main.cpp)
+add_executable(To-Do_CLI ./src/main.cpp
+                        ./src/CLI.cpp
+                        ./src/Storage.cpp
+                        ./src/Task.cpp
+                        ./src/TaskManager.cpp
+)

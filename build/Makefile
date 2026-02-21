@@ -129,29 +129,125 @@ To-Do_CLI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/build
 .PHONY : To-Do_CLI/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/CLI.o: src/CLI.cpp.o
+.PHONY : src/CLI.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/CLI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o
+.PHONY : src/CLI.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/CLI.i: src/CLI.cpp.i
+.PHONY : src/CLI.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/CLI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.i
+.PHONY : src/CLI.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/CLI.s: src/CLI.cpp.s
+.PHONY : src/CLI.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/CLI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.s
+.PHONY : src/CLI.cpp.s
+
+src/Storage.o: src/Storage.cpp.o
+.PHONY : src/Storage.o
+
+# target to build an object file
+src/Storage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o
+.PHONY : src/Storage.cpp.o
+
+src/Storage.i: src/Storage.cpp.i
+.PHONY : src/Storage.i
+
+# target to preprocess a source file
+src/Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.i
+.PHONY : src/Storage.cpp.i
+
+src/Storage.s: src/Storage.cpp.s
+.PHONY : src/Storage.s
+
+# target to generate assembly for a file
+src/Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.s
+.PHONY : src/Storage.cpp.s
+
+src/Task.o: src/Task.cpp.o
+.PHONY : src/Task.o
+
+# target to build an object file
+src/Task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o
+.PHONY : src/Task.cpp.o
+
+src/Task.i: src/Task.cpp.i
+.PHONY : src/Task.i
+
+# target to preprocess a source file
+src/Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Task.cpp.i
+.PHONY : src/Task.cpp.i
+
+src/Task.s: src/Task.cpp.s
+.PHONY : src/Task.s
+
+# target to generate assembly for a file
+src/Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/Task.cpp.s
+.PHONY : src/Task.cpp.s
+
+src/TaskManager.o: src/TaskManager.cpp.o
+.PHONY : src/TaskManager.o
+
+# target to build an object file
+src/TaskManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o
+.PHONY : src/TaskManager.cpp.o
+
+src/TaskManager.i: src/TaskManager.cpp.i
+.PHONY : src/TaskManager.i
+
+# target to preprocess a source file
+src/TaskManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.i
+.PHONY : src/TaskManager.cpp.i
+
+src/TaskManager.s: src/TaskManager.cpp.s
+.PHONY : src/TaskManager.s
+
+# target to generate assembly for a file
+src/TaskManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.s
+.PHONY : src/TaskManager.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/To-Do_CLI.dir/build.make CMakeFiles/To-Do_CLI.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... To-Do_CLI"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/CLI.o"
+	@echo "... src/CLI.i"
+	@echo "... src/CLI.s"
+	@echo "... src/Storage.o"
+	@echo "... src/Storage.i"
+	@echo "... src/Storage.s"
+	@echo "... src/Task.o"
+	@echo "... src/Task.i"
+	@echo "... src/Task.s"
+	@echo "... src/TaskManager.o"
+	@echo "... src/TaskManager.i"
+	@echo "... src/TaskManager.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

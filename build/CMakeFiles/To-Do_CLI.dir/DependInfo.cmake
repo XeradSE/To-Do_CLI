@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/main.cpp" "CMakeFiles/To-Do_CLI.dir/main.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/main.cpp.o.d"
+  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/CLI.cpp" "CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o.d"
+  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Storage.cpp" "CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o.d"
+  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/Task.cpp" "CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o.d"
+  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/TaskManager.cpp" "CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o.d"
+  "/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/src/main.cpp" "CMakeFiles/To-Do_CLI.dir/src/main.cpp.o" "gcc" "CMakeFiles/To-Do_CLI.dir/src/main.cpp.o.d"
   "" "To-Do_CLI" "gcc" "CMakeFiles/To-Do_CLI.dir/link.d"
   )
 

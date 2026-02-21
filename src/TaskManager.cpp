@@ -2,11 +2,15 @@
 #include <stdexcept>
 #include <algorithm>
 #include <utility>
-#include <vector>
 
 void TaskManager::addTask(const std::string& title) {
     Task new_task(title, ind);
     liste.insert({ind, new_task});
+    ind++;
+}
+
+void TaskManager::addTask(const Task& task) {
+    liste.insert({ind, task});
     ind++;
 }
 
@@ -19,24 +23,40 @@ Task TaskManager::getTask(int id) {
     return liste.at(id);
 }
 
-std::map<int, Task> TaskManager::filterByStatus(Status s) const {
+std::vector<Task> TaskManager::getAllTasks() const {
+    std::vector<Task> temp;
+    for (auto i : liste) {
+        temp.push_back(i.second);
+    }
+    return temp;
+}
+
+std::vector<Task> TaskManager::filterByStatus(Status s) const {
     std::map<int, Task> listeStatus;
     for (auto const& [id, task] : liste) {
         if (task.getStatus() == s) {
             listeStatus.insert({id, task});
         }
     }
-    return listeStatus;
+    std::vector<Task> temp;
+    for (auto i : listeStatus) {
+        temp.push_back(i.second);
+    }
+    return temp;
 }
 
-std::map<int, Task> TaskManager::filterByPriority(Priority p) const {
+std::vector<Task> TaskManager::filterByPriority(Priority p) const {
     std::map<int, Task> listePriority;
     for (auto const& [id, task] : liste) {
         if (task.getPriority() == p) {
             listePriority.insert({id, task});
         }
     }
-    return listePriority;
+    std::vector<Task> temp;
+    for (auto i : listePriority) {
+        temp.push_back(i.second);
+    }
+    return temp;
 }
 
 struct {
@@ -46,15 +66,11 @@ struct {
 }customPriority;
 
 void TaskManager::sortByPriority() {
-
     std::vector<Task> temp;
-    
     for (auto i : liste) {
         temp.push_back(i.second);
     }
-
     std::sort(temp.begin(), temp.end(), customPriority);
-
     for (Task i : temp) {
         i.display();
     }
@@ -67,15 +83,11 @@ struct {
 }customStatus;
 
 void TaskManager::sortByStatus() {
-
     std::vector<Task> temp;
-    
     for (auto i : liste) {
         temp.push_back(i.second);
     }
-
     std::sort(temp.begin(), temp.end(), customStatus);
-
     for (Task i : temp) {
         i.display();
     }
