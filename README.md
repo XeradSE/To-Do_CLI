@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/881a3893-9c89-49e5-9810-12fd00bfe5b5
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/To-Do_CLI.git
+git clone https://github.com/XeradSE/To-Do_CLI.git
 cd To-Do_CLI
 
 # Build
