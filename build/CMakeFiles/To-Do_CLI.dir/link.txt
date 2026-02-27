@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/To-Do_CLI.dir/link.d "CMakeFiles/To-Do_CLI.dir/src/main.cpp.o" "CMakeFiles/To-Do_CLI.dir/src/CLI.cpp.o" "CMakeFiles/To-Do_CLI.dir/src/Storage.cpp.o" "CMakeFiles/To-Do_CLI.dir/src/Task.cpp.o" "CMakeFiles/To-Do_CLI.dir/src/TaskManager.cpp.o" -o To-Do_CLI

@@ -1,3 +1,0 @@
-/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles/To-Do_CLI.dir
-/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles/edit_cache.dir
-/home/xerad/Documents/ProjetsProgrammation/C++/To-Do_CLI/build/CMakeFiles/rebuild_cache.dir
