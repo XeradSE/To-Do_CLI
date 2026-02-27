@@ -21,8 +21,7 @@ https://github.com/user-attachments/assets/881a3893-9c89-49e5-9810-12fd00bfe5b5
 
 ## Dependencies
 
-- [nlohmann/json](https://github.com/nlohmann/json) — header-only JSON library
-No dowload required, the file is already provided
+- [nlohmann/json](https://github.com/nlohmann/json) — header-only JSON library (No dowload required, the file is already provided)
 
 ## Build & Run
 
