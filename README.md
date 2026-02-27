@@ -17,11 +17,12 @@ https://github.com/user-attachments/assets/881a3893-9c89-49e5-9810-12fd00bfe5b5
 - Set a due date for each task
 - Filter tasks by priority or status
 - Sort tasks by priority or due date
-- Persistent storage via a local JSON file (Warning! You must back-up the file once done before using the application again if you do not want your .json to be overwritten, or you can load it at the start.)
+- Persistent storage via a local JSON file (Warning! You must back-up the file once done before using the application again if you do not want your .json to be overwritten, or you can load it at the start)
 
 ## Dependencies
 
 - [nlohmann/json](https://github.com/nlohmann/json) — header-only JSON library
+No dowload required, the file is already provided
 
 ## Build & Run
 
