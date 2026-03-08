@@ -41,30 +41,6 @@ make
 # Run (depuis le dossier racine du projet)
 ./build/To-Do_CLI
 ```
-
-## Project Structure
-
-```
-To-Do_CLI/
-├── build/
-│   ├── Makefile
-├── README.md
-├── CMakeLists.md
-├── include/
-│   ├── Task.hpp
-│   ├── TaskManager.hpp
-│   ├── Storage.hpp
-│   └── CLI.hpp
-├── src/
-│   ├── main.cpp
-│   ├── Task.cpp
-│   ├── TaskManager.cpp
-│   ├── Storage.cpp
-│   └── CLI.cpp
-└── data/
-    └── data.json
-```
-
 ## Architecture
 
 The project is split into four clearly separated layers:
